@@ -1,0 +1,17 @@
+.custom_button_box{
+display: inline-flex;
+border-radius: 5px;
+padding: 10px;
+font-weight: bolder;
+cursor: pointer;
+box-shadow: 1px 1px black;
+margin:5px;
+}
+
+.custom_button_box:active{
+    background-color: aquamarine;
+}
+.custom_button_inner::selection{
+background: none;
+color:none;
+}
